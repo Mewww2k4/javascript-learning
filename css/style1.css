@@ -56,6 +56,7 @@ main .content h1, main .content p{
 
   color: palevioletred;
   padding-left: 50px;
+  padding-bottom: 50px;
 }
 
 
@@ -73,7 +74,21 @@ footer{
   font-size: 30px;
 }
 
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
 
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
 
 
 
